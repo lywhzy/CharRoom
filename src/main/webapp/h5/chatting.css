@@ -31,7 +31,7 @@ html,body,#outmost{
 #headline{
     height: 10%;
     width: 798px;
-    background: url("img/1.JPG");
+    background: url("../img/1.JPG");
     /*background-size: 100%;*/
     position: relative;
     border: solid 1px #000000;
@@ -47,7 +47,7 @@ html,body,#outmost{
     left: 10px;
     border-radius: 18px;
     border: solid 1px lavender;
-    background: url("img/3.jpg");
+    background: url("../img/3.jpg");
     background-size: 100%;
     disabled: true;
 }
@@ -62,7 +62,7 @@ html,body,#outmost{
     height: 99%;
     width: 12%;
     /*opacity: 0.1;*/
-    background: url("img/list_1.png");
+    background: url("../img/list_1.png");
     background-size: 100%;
     float: left;
     border: solid 1px #00004f;
