@@ -1,20 +1,23 @@
-// window.moveTo(0,0);
-// window.resizeTo(900,920);
 var flag = 0;
-// $("#head_portrait").attr("disabled",true);
-
-function down(event){
-    // alert(event.keyCode);
-        if (event.keyCode == 13)
-        {
-            showText();
-        }
+var num = 0;
+var dataImg = ["img/background_2.jpg","img/background_3.png","img/background_4.png","img/background_1.jpg"];
+function backgroude_change() {     //更换背景
+    num = num % 4;
+    $("#outmost").css("backgroundImage","url(" + dataImg[num] + ")");
+    num++;
 }
-
+function kong(e) {     //阻止事件冒泡 即点击container时也更换背景
+    e.stopPropagation();
+}
+function down(event){
+    if (event.keyCode == 13)
+    {
+        showText();
+    }
+}
 function showText() {
     if (flag == 1)
     {
-        // alert("somt");
         $("#chat_frame").append($("<br/>"));
         $("#chat_frame").append($("<br/>"));
     }
@@ -31,14 +34,11 @@ function showText() {
             "font-family" : "楷体",
             "font-size" : "20px",
             "background-color" : "azure"
-            // "margin" : "5px"
         });
         flag = 1;
         $("#chat_frame").append(text2);
-        // $(divz).append(text2);
         $("#input").val("");
         $("#chat_frame").scrollTop(100000);
-        // document.getElementById("input").value = "";
     }
 
 }

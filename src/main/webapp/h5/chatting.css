@@ -4,25 +4,36 @@
     border: 0px;
 }
 /*body{*/
-    /*width: 800px;*/
-    /*height: 500px;*/
-    /*overflow: hidden;*/
+/*width: 800px;*/
+/*height: 500px;*/
+/*overflow: hidden;*/
 /*}*/
 html,body,#outmost{
     height: 100%;
     width: 100%;
+    /*background-color: azure;*/
 }
 #outmost{
-    background-color: aliceblue;
+    background: url("img/background_1.jpg");
+    background-color: azure;
 }
+/*#left_btn{*/
+/*position: absolute;*/
+/*width: 60px;*/
+/*height: 60px;*/
+/*top:43%;*/
+/*left: 0%;*/
+/*background-color: #cccccc;*/
+/*opacity: 0.6;*/
+/*border-radius: 30px;*/
+/*}*/
 #container{
-
     width: 800px;
     height: 500px;
     position: absolute;
     top: 10%;
     left: 23%;
-    background-color: snow;
+    background-color: aliceblue;
     /*opacity: 0.9;*/
     border: solid 1px black;
     border-radius: 5px;
@@ -31,13 +42,11 @@ html,body,#outmost{
 #headline{
     height: 10%;
     width: 798px;
-    background: url("../img/1.JPG");
-    /*background-size: 100%;*/
+    background: url("img/headline_1.JPG");
     position: relative;
     border: solid 1px #000000;
     border-radius: 5px;
     box-shadow: 0px 0px 1px #000000;
-    /*opacity: 0.3;*/
 }
 #head_portrait{
     width: 36px;
@@ -47,7 +56,7 @@ html,body,#outmost{
     left: 10px;
     border-radius: 18px;
     border: solid 1px lavender;
-    background: url("../img/3.jpg");
+    background: url("img/3.jpg");
     background-size: 100%;
     disabled: true;
 }
@@ -62,7 +71,7 @@ html,body,#outmost{
     height: 99%;
     width: 12%;
     /*opacity: 0.1;*/
-    background: url("../img/list_1.png");
+    background: url("img/list_1.png");
     background-size: 100%;
     float: left;
     border: solid 1px #00004f;
@@ -106,10 +115,10 @@ html,body,#outmost{
 }
 
 /*#expression_frame{*/
-    /*float: top;*/
-    /*height: 20%;*/
-    /*border: solid 1px #000000;*/
-    /*border-radius: 2px;*/
+/*float: top;*/
+/*height: 20%;*/
+/*border: solid 1px #000000;*/
+/*border-radius: 2px;*/
 /*}*/
 
 #input_frame{
