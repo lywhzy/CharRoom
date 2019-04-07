@@ -71,7 +71,7 @@ html,body,#outmost{
     height: 99%;
     width: 12%;
     /*opacity: 0.1;*/
-    background: url("img/list_1.png");
+    background: url("../img/list_1.png");
     background-size: 100%;
     float: left;
     border: solid 1px #00004f;
