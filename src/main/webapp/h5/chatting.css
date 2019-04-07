@@ -14,7 +14,7 @@ html,body,#outmost{
     /*background-color: azure;*/
 }
 #outmost{
-    background: url("img/background_1.jpg");
+    background: url("../img/background_1.jpg");
     background-color: azure;
 }
 /*#left_btn{*/
@@ -42,7 +42,7 @@ html,body,#outmost{
 #headline{
     height: 10%;
     width: 798px;
-    background: url("img/headline_1.JPG");
+    background: url("../img/headline_1.JPG");
     position: relative;
     border: solid 1px #000000;
     border-radius: 5px;
@@ -56,7 +56,7 @@ html,body,#outmost{
     left: 10px;
     border-radius: 18px;
     border: solid 1px lavender;
-    background: url("img/3.jpg");
+    background: url("../img/3.jpg");
     background-size: 100%;
     disabled: true;
 }
