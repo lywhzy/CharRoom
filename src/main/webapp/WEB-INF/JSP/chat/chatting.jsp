@@ -5,8 +5,9 @@
   Time: 19:55
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" isELIgnored="false" %>
 <%@include file="../include/chatHead.jsp"%>
-
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/h5/chatting.css" />
 <body>
 <div id="outmost">
     <div id="container">
@@ -19,7 +20,6 @@
 
                 </ul>
             </div>
-
             <div id="frame">            <!--聊天框框-->
                 <div id="chat_frame">           <!--聊天记录框框-->
 

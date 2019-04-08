@@ -7,11 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" isELIgnored="false" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<html>
+<!DOCTYPE html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="/h5/chatting.css" />
-    <script src="/h5/chat.js"></script>
-    <script src="/h5/jquery.min.js"></script>
+
+
+    <script src="${pageContext.request.contextPath}/h5/chat.js"></script>
+    <script src="${pageContext.request.contextPath}/h5/jquery.min.js"></script>
 </head>
 
